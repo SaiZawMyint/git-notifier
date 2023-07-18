@@ -21,7 +21,6 @@ class GitNotifier{
         if($url != null){
             $notification->addOption('url', $url);
         }
-
         $this->notifier->send($notification);
     }
 }

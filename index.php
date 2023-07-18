@@ -9,7 +9,7 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case "/git": {
-            error_log("Git action!");
+            error_log("Git action => $_SERVER[HTTP_X_GITHUB_EVENT]");
             git();
         }
         break;
