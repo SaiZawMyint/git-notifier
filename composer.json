@@ -1,0 +1,16 @@
+{
+    "name": "mtm/gitevent",
+    "description": "The git event notifiers",
+    "type": "project",
+    "license": "none",
+    "authors": [{
+        "name": "SaiZawMyint"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "jolicode/jolinotif": "^2.5"
+    },
+    "autoload": {
+        "classmap": ["app"]
+    }
+}
