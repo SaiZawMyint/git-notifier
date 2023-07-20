@@ -46,5 +46,5 @@ function handle($payload)
     $url = $data->repository->url;
     $sender = $data->sender->login;
     $body = "Repository: $repository\nSender: $sender\nEvent: $event\nurl: $url";
-    $gitNotifier->sendNotification("Some actions happen to you Git!", $body, $url);
+    $gitNotifier->sendNotification("Some actions happen to your Git!", $body, $url);
 }
