@@ -65,6 +65,9 @@ Let's start to configure our git webhook.
  - Add new Webhook.
  - At the payload URL, paste your ngrok URL that exposed from your local server. (_Don't forget to add the '/git' at the ent of the URL_)
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/6ef7687e-816e-4b0e-8196-548322c267e0)
+ - Scroll down and at the **Which events would you like to trigger this webhook?**, choose the **Send me everything**.
+ - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/30753799-d091-44ee-94ef-d24e2dd0d27c)
+
  - Click on Add webhooks button (_You can skip other input, after you have put the payload URL_)
 
 Congratulations, we have done all of the implementation.
