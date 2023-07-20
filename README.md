@@ -77,9 +77,14 @@ Congratulations, we have done all of the implementation.
 Make some event to the repository you have configure the webhook, likes push, fork, given stars, issues, pull request, etc...
 You will Get the notification every time event happened on your repository. 
 
-<hr/>
+## Where to use?
+> **As the project is to handle the Git event, you can use it when you want to notify the event of your Git repository.
+> It's very useful when you have the development team and you want to know who have push to the repository
+> or who have PR to the repository or other actions happen between your team development.**
 
-Hope this help you understanding the Git webhook more. :D
+<br/>
+
+**Hope this help you in your improvement or development with Git. :D**
 
 ### Thank you. 
 
