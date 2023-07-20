@@ -52,35 +52,35 @@ Forwarding                    https://{{your-ngrok-custom-ips}}.ngrok-free.app -
 Connections                   ttl     opn     rt1     rt5     p50     p90
                               0       0       0.00    0.00    0.00    0.00
 ```
-At the *Forwording* sentence, copy the URL exposed by Ngrok. Now we get the exposed URL for our local development.
+At the **Forwarding** sentence, copy the URL exposed by Ngrok. Now we get the exposed URL for our local development.
 
 ## Configure Git Webhook
 Let's start to configure our git webhook. 
- - Go to the your [Git](https://github.com/) profile.
+ - Go to your [Git](https://github.com/) profile.
  - Choose the repository you want to implement the Git event.
  - Go to the settings page.
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/beecaf09-708c-4d77-9b64-53850fce9bd7)
- - Click on Webhooks at the side bar.
+ - Click on Webhooks at the sidebar.
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/f213350e-a450-4cc2-af48-6c57f38dd4b9)
  - Add new Webhook.
- - At the payload URL, paste your ngrok URL that exposed from your local server. (_Don't forget to add the '/git' at the ent of the URL_)
+ - At the payload URL, paste your ngrok URL that is exposed from your local server. (_Don't forget to add the '/git' at the ent of the URL_)
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/6ef7687e-816e-4b0e-8196-548322c267e0)
  - Scroll down and at the **Which events would you like to trigger this webhook?**, choose the **Send me everything**.
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/30753799-d091-44ee-94ef-d24e2dd0d27c)
 
- - Click on Add webhooks button (_You can skip other input, after you have completed the about options_)
+ - Click on Add webhooks button (_You can skip other input after you have completed the above options_)
 
 Congratulations, we have done all of the implementation.
 <hr/>
 
 ## Test
-Make some event to the repository you have configure the webhook, likes push, fork, given stars, issues, pull request, etc...
-You will Get the notification every time event happened on your repository. 
+Make some event to the repository you have configured the webhook, like push, fork, given stars, issues, pull request, etc...
+You will Get a notification every time an event happened on your repository. 
 
 ## Where to use?
 **As the project is to handle the Git event, you can use it when you want to notify the event of your Git repository.
-It's very useful when you have the development team and you want to know who have push to the repository
-or who have PR to the repository or other actions happen between your team development.**
+It's very useful when you have a development team and you want to know who has pushed to the repository
+or who has PR to the repository or other actions happening between your team development.**
 
 <br/>
 
