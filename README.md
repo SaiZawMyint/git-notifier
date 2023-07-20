@@ -78,9 +78,9 @@ Make some event to the repository you have configure the webhook, likes push, fo
 You will Get the notification every time event happened on your repository. 
 
 ## Where to use?
-> **As the project is to handle the Git event, you can use it when you want to notify the event of your Git repository.
-> It's very useful when you have the development team and you want to know who have push to the repository
-> or who have PR to the repository or other actions happen between your team development.**
+**As the project is to handle the Git event, you can use it when you want to notify the event of your Git repository.
+It's very useful when you have the development team and you want to know who have push to the repository
+or who have PR to the repository or other actions happen between your team development.**
 
 <br/>
 
