@@ -68,7 +68,7 @@ Let's start to configure our git webhook.
  - Scroll down and at the **Which events would you like to trigger this webhook?**, choose the **Send me everything**.
  - ![image](https://github.com/SaiZawMyint/git-notifier/assets/96133665/30753799-d091-44ee-94ef-d24e2dd0d27c)
 
- - Click on Add webhooks button (_You can skip other input, after you have put the payload URL_)
+ - Click on Add webhooks button (_You can skip other input, after you have completed the about options_)
 
 Congratulations, we have done all of the implementation.
 <hr/>
