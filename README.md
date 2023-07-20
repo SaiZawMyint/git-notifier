@@ -27,7 +27,7 @@ To test the notification, open your browser, and on the URL bar, enter the follo
 ```sh
 http://localhost:8080/test-noti
 ```
-You will get the test notification message.
+You will get the test notification message.(_NOTE: You must enable system notification on your device. If you have blocked the notifications, the notification will not send to your device!_)
 
 We have done our local development, and now let's continue to configure the Git webhook.
 
