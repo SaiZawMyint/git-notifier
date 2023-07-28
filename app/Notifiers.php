@@ -16,8 +16,7 @@ class GitNotifier{
         $notification = (new Notification())
         ->setTitle($title)
         ->setBody($message)
-        ->setIcon($_SERVER['DOCUMENT_ROOT'].'/resources/github.png');
-
+        ->setIcon($_SERVER['DOCUMENT_ROOT'].'/resources/webhooks.png');
         if($url != null){
             $notification->addOption('url', $url);
         }
